@@ -4,7 +4,7 @@
   "description": "Just a bit better spec reporter for Mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R ../../../ --reporter-options show-file-content=js+sm test/*.js --color"
+    "test": "mocha --reporter-options show-file-content=js+sm test/*.js --color"
   },
   "keywords": [
     "mocha",

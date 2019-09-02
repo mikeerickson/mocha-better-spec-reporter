@@ -1,4 +1,4 @@
-const chalk = require("chalk");
+var chalk = require("chalk");
 
 var symbols = {
   passed: chalk.green("✔"),
